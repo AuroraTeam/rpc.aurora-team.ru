@@ -1,0 +1,17 @@
+{
+  "name": "rpc.aurora-team.ru",
+  "version": "1.0.0",
+  "repository": "https://github.com/AuroraTeam/rpc.aurora-team.ru.git",
+  "author": "Andrew Molchanov <mr.catmanrus@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.12",
+    "vue": "^3.2.37"
+  }
+}
