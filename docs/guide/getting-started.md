@@ -4,6 +4,29 @@
 
 ## Установка (Client)
 
+`npm i aurora-rpc-client`
+
+### Использование
+
+```ts
+import { Client } from "aurora-rpc-client";
+
+// --- Connect ---
+
+const client = new Client("ws://localhost:8080");
+client.connect();
+
+// or
+
+const client = new Client();
+client.connect("ws://localhost:8080");
+
+// ---
+
+const result = await client.send("hello");
+console.log(result); // "Hello Aurora RPC!"
+```
+
 ## Установка (Server)
 
 `npm i aurora-rpc-server`
